@@ -10,8 +10,7 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        2- Italian
-        4- Germany
+        yes, but for future, you + 5 german
         
  **/
 contract Identity is ProxyStorage {
