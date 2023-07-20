@@ -9,7 +9,9 @@ import "./ProxyStorage.sol";
  * @dev Represents a users on-chain identity and allows to execute meta-transactions where the gas of the ethereum transaction
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
-        you can get 1500 ~ 2500 per a monthly
+        
+        2- Italian
+        4- Germany
         
  **/
 contract Identity is ProxyStorage {
