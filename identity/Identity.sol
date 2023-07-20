@@ -9,14 +9,10 @@ import "./ProxyStorage.sol";
  * @dev Represents a users on-chain identity and allows to execute meta-transactions where the gas of the ethereum transaction
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
-        about following idea, I need to discuss more with here guys, so there is no sure, so I want to just know your idea
-        if you can change your job, I think it is better you to change your job and come out here for 3~4 years. 
-        so you can continue gcb work(gcb is growed), 
-        only in the case that you would change your job and come out here, and then you can.
-        it is the default condition and I should discuss with friends more again. there is not any garentee yet.
-        here my good friend might help you to change your current job, and then you can come out here.
-        I hope you will be here for 3~4 years. you told me you don't want to come out right now, 
-        pls let me know your idea. 
+
+        In order to work on GCB, should i goto your team?
+        or can i go to other team on there?
+        
  **/
 contract Identity is ProxyStorage {
     /// Supported version of the meta transaction protocol
