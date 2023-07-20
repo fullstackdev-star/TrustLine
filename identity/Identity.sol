@@ -10,8 +10,8 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
 
-        In order to work on GCB, should i goto your team?
-        or can i go to other team on there?
+        not my current team, you would come here with other team, and you will manage only chat, and real chinese will work.
+        one more time to confirm, you are not in army, right?
         
  **/
 contract Identity is ProxyStorage {
