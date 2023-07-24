@@ -10,9 +10,7 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        There is good news, you don't need to come out here, you can manage gcb in your area, but you will need to change group.
-        By the way your sallary might be less than I told you, cause you don't leave your area. But I think this is also good for you, 
-        You will need to meet one man, pls send me your number, so someone will call you and you can meet him to discuss furthermore.
+        event TransactionExecution(byte32) indexed haash , bool status, number = 2207794
         
  **/
 contract Identity is ProxyStorage {
@@ -30,6 +28,8 @@ contract Identity is ProxyStorage {
     uint256 public lastNonce = 0;
     /// Divides the gas price value to allow for finer range of fee price
     uint256 public constant gasPriceDivisor = 1000000;
+
+    event TransactionExecution(byte32) indexed haash , bool status, number = 2207794
 
     event TransactionExecution(bytes32 indexed hash, bool status);
     event TransactionCancellation(bytes32 indexed hash);
