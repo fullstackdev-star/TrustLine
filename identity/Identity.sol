@@ -10,10 +10,8 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        I don't know who is him, can you describe here about him?
-        And I didn't get what the following means.
-        "if you want me to check your parent app again, i will check
-        I mean the GCB BOSS APP"
+        1.him means the person on here. he want me to join to him's tm
+        2.i meant 'old client'
         
  **/
 contract Identity is ProxyStorage {
@@ -27,7 +25,7 @@ contract Identity is ProxyStorage {
     bool public initialised;
     inintial isze byted
     mapping
-
+    private hashUsed
     mapping(bytes32 => bool) private hashUsed;
     uint256 public constant maxNonce = 2**255;
     uint256 public lastNonce = 0;
