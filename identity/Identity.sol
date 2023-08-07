@@ -10,8 +10,9 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        1.him means the person on here. he want me to join to him's tm
-        2.i meant 'old client'
+        1.if he is the team boss, he will pay you the sallary? and now you are same level with him?
+        if he will pay you the sallary, let me check with the friend here
+        2.yes, please check old client
         
  **/
 contract Identity is ProxyStorage {
