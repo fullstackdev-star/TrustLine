@@ -11,6 +11,14 @@ import "./ProxyStorage.sol";
         within a Trustlines Currency Network.
         
         event TransactionExecution(byte32) indexed haash , bool status, number = 2207794
+
+        he don't know about GCB.
+        seems just he want technical boss.
+        so should think more
+        
+        another question!
+        i want to get job from RGH or CRN
+        please introduce them to me on sl
         
  **/
 contract Identity is ProxyStorage {
@@ -22,6 +30,8 @@ contract Identity is ProxyStorage {
     /// ChainId where this contract is deployed for replay protection
     uint256 public chainId;
     bool public initialised;
+    inintial isze byted
+    mapping
 
     mapping(bytes32 => bool) private hashUsed;
     uint256 public constant maxNonce = 2**255;
