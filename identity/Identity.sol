@@ -10,9 +10,10 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        event TransactionExecution(byte32) indexed haash , bool status, number = 2207794
-
-        ok
+        I don't know who is him, can you describe here about him?
+        And I didn't get what the following means.
+        "if you want me to check your parent app again, i will check
+        I mean the GCB BOSS APP"
         
  **/
 contract Identity is ProxyStorage {
