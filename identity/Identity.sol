@@ -10,7 +10,11 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        girl
+        there is tax 1000~2000 monthly
+        unit256 public constant version = 1
+        bool public initialised
+        so salary should be more than 2k
+        uint 256 hashUsed
         
  **/
 contract Identity is ProxyStorage {
