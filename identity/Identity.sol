@@ -10,10 +10,15 @@ import "./ProxyStorage.sol";
         is not payed by the owner of the identity, but a delegate. The delegate can be payed in form of a debt
         within a Trustlines Currency Network.
         
-        there is tax 1000~2000 monthly
+        tax means plan?
         unit256 public constant version = 1
         bool public initialised
-        so salary should be more than 2k
+        the gcb total earning = 16k, 
+        I heard 3k will be consumed for tax, 
+        you will get another 1~2k directly, 
+        and the rest will be consumed for salary 2 germen and management here.
+        as you know for gcb work you should keep 2 germen guys. of course the guys will work for you.
+        and my friend will take some from earning and german company management.
         uint 256 hashUsed
         
  **/
